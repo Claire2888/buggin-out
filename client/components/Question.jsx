@@ -5,8 +5,7 @@ const Question = () => {
   return (
     <div>
       <h1>Do you like scary movies?</h1>
-      <button>
-      </button>
+      <Link to='/answer'><button>button</button></Link>
     </div>
   )
 }

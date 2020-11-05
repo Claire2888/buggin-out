@@ -1,10 +1,13 @@
-import {React} from 'react'
+import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Home = () => {
-  return(
+
+  return (
   <div>
-    <h1>What kind of bug are you?</h1>
-    <button>button</button>
+    <h2>What kind of bug are you?</h2>
+    <Link to='/question'><button>button</button></Link>
+    
   </div>
 
   )
