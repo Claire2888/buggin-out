@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Question from './Question'
+import Answer from './Answer'
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
         <Route path='/' component={Question} />
-
+        <Route path='/answer' component={Answer} />
       </div>
     </>
   )
