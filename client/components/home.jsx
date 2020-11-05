@@ -1,12 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
 
 const Home = () => {
 
   return (
   <div>
-    <h2>What kind of bug are you?</h2>
-    <Link to='/question'><button>button</button></Link>
+    <h2 className='font'>What kind of bug are you?</h2>
+    <Link to='/question'>
+      <Button type="button" className="btn btn-primary btn-lg">Go!</Button>
+    </Link>
     
   </div>
 

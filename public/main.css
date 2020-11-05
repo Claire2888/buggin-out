@@ -1,8 +1,9 @@
-.main {
-  display: flex;
-  flex-direction: row;
+/* Overrides */
+
+.btn-primary {
+  background-color: aquamarine;
 }
 
-.main div {
-  margin: 0px 10px 0px 10px;
+.font {
+  font-family: 'Grandstander', cursive;
 }
