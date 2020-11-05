@@ -6,7 +6,6 @@ const Question = () => {
     <div>
       <h1>Do you like scary movies?</h1>
       <button>
-        <Link to= {`/answer/${bugName}`}>{bugName}</Link>
       </button>
     </div>
   )
