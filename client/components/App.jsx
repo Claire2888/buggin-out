@@ -1,18 +1,23 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import Home from './home'
+import Home from './Home'
 import Question from './Question'
 import Answer from './Answer'
+import Question2 from './Question2'
+import Question3 from './Question3'
 
 const App = () => {
   return (
     <>
 
+      <h1>BUGS</h1>
       <div className='main'>
-        <h1>BUGS</h1>
+        
         <Route exact path='/' component={Home} />
-        <Route path='/question' component={Question}/>
-        <Route path='/answer' component={Answer} />
+        <Route exact path='/question' component={Question}/>
+        <Route path='/question/Crawly' component={Question2}/>
+        <Route path='/question/skritery' component={Question3}/>
+        <Route path='/answer/:bug' component={Answer} />
 
       </div>
     </>

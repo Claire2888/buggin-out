@@ -1,4 +1,4 @@
-const Bugs = [
+const bugs = [
   {
   id:1,
   name:'Beetle',
@@ -54,3 +54,4 @@ const Bugs = [
   image: '/image/weta.jpg'
 }
 ]
+export default bugs
