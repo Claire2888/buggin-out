@@ -7,7 +7,7 @@ const bugs = [
     'Did you know most beetles only live for a year?',
     'Biologists say Beetles have 6 legs. They forgot about Ringo.'
   ],
-  image: '/image/beetle.jpg'
+  image: '/image/beetle.png'
 },
 {
   id:2,
@@ -27,7 +27,7 @@ const bugs = [
     'Did you know spiders don\'t get caught in their own webs because they have self-oiling legs?',
     'A spider crawled on my computer. Don’t worry, it’s under ctrl'
   ],
-  image: '/image/spider.jpg'
+  image: '/image/spider.png'
 },
 {
   id:4,
@@ -37,7 +37,7 @@ const bugs = [
     'Did you know a weta has ears on its knees!',
     'I like weta. They always laugh at my jokes.'
   ],
-  image: '/image/weta.jpg'
+  image: '/image/weta.png'
 }
 ]
 export default bugs
