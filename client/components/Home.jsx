@@ -6,11 +6,10 @@ const Home = () => {
 
   return (
   <div>
-    <h2 className='font'>What kind of bug are you?</h2>
+    <h2 className='font '>What kind of bug are you?</h2>
     <Link to='/question'>
-      <Button type="button" className="btn btn-primary btn-lg">Go!</Button>
+      <Button type="button" className="font, btn btn-primary btn-lg">Go!</Button>
     </Link>
-    
   </div>
 
   )

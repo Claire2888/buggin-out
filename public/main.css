@@ -2,15 +2,29 @@
 
 body {
   text-align: center;
+  background-image: radial-gradient( #7e19b0 10%, #facb0f) ;
 }
 
 .btn-primary {
-  background-color: aquamarine;
+  background-color: #1eb019;
+  border-radius: 200px; 
+  border: 10px solid #facb0f;
+  width: 345px;
+  height: 250px;
+  font-family: 'Grandstander', cursive;
+  font-size: 180px;
+  color: #7e19b0;
+  -webkit-text-stroke: 10px #facb0f;
+  
 }
 
 .font {
   font-family: 'Grandstander', cursive;
+  font-size: 210px;
+  color: #1eb019;
+  -webkit-text-stroke: 10px#facb0f;
 }
+
 
 
 
