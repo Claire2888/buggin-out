@@ -11,7 +11,8 @@
     "client": "webpack --watch",
     "server": "node server",
     "test": "jest --watch --noStackTrace",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build":"webpack"
   },
   "babel": {
     "presets": [
