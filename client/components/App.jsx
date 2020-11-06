@@ -10,7 +10,6 @@ const App = () => {
   return (
     <>
 
-      <h1>BUGS</h1>
       <div className='main'>
         
         <Route exact path='/' component={Home} />
