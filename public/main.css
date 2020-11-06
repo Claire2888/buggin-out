@@ -45,6 +45,13 @@ body {
   -webkit-text-stroke: 10px black;
 }
 
+.font-answer {
+  font-family: 'Grandstander', cursive;
+  font-size: 80px;
+  color: #5F2699;
+  -webkit-text-stroke: 10px black;
+}
+
 
 
 /* Small devices (landscape phones, 576px and up) */
