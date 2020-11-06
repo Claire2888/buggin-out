@@ -7,8 +7,8 @@ const Answer = (props) => {
   const {image, facts, name} = bugs.find(({name}) => name === bug)
   return(
     <div>
-      <h1>you are a {name} </h1>
-      <img src={image}></img>
+      <h1>you are a {name}! </h1>
+      <img src={image} height='700px'width='600px'></img>
         <p>Did you know {facts[num]}</p>
     </div>
   )
