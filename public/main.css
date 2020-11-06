@@ -2,29 +2,48 @@
 
 body {
   text-align: center;
-  background-image: radial-gradient( #7e19b0 10%, #facb0f) ;
+  background-image: radial-gradient( #7e19b0 10%, #fa6c00) ;
 }
 
-.btn-primary {
-  background-color: #1eb019;
+.btn-primary-home {
+  background-color: #1AC747;
   border-radius: 200px; 
-  border: 10px solid #facb0f;
+  border: 10px solid black;
   width: 345px;
   height: 250px;
   font-family: 'Grandstander', cursive;
   font-size: 180px;
-  color: #7e19b0;
-  -webkit-text-stroke: 10px #facb0f;
+  color:  #5F2699;
+  -webkit-text-stroke: 10px black;
   
 }
 
-.font {
+.btn-primary-question {
+  background-color: #1AC747;
+  border-radius: 200px; 
+  border: 10px solid black;
+  width: 345px;
+  height: 250px;
   font-family: 'Grandstander', cursive;
-  font-size: 210px;
-  color: #1eb019;
-  -webkit-text-stroke: 10px#facb0f;
+  font-size: 180px;
+  color:  #5F2699;
+  -webkit-text-stroke: 10px black;
+  
 }
 
+.font-home {
+  font-family: 'Grandstander', cursive;
+  font-size: 210px;
+  color: #1AC747;
+  -webkit-text-stroke: 10px black;
+}
+
+.font-question {
+  font-family: 'Grandstander', cursive;
+  font-size: 210px;
+  color: #5F2699;
+  -webkit-text-stroke: 10px black;
+}
 
 
 
