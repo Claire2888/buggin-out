@@ -6,7 +6,6 @@
   "main": "server/index.js",
   "scripts": {
     "start": "run-p webpack server",
-    "dev": "run-p client server",
     "webpack": "webpack",
     "client": "webpack --watch",
     "server": "node server",
