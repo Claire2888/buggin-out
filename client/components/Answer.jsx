@@ -10,10 +10,10 @@ const Answer = (props) => {
   const {image, facts, name} = bugs.find(({name}) => name === bug)
   return(
     <div>
-      <h1>you are a {name}! </h1>
+      <h1 className='font-answer'>you are a {name}! </h1>
       <img src={image} height='700px'width='600px'></img>
         <p>{facts[num]}</p>
-        <Link to='/'><Button type="button" className="font, btn btn-primary btn-lg">again?</Button></Link>
+        <Link to='/'><Button type="button" className="font-answer, btn btn-primary-answer btn-lg">again?</Button></Link>
     </div>
   )
 }

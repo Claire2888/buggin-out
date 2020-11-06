@@ -2,7 +2,8 @@
 
 body {
   text-align: center;
-  background-image: radial-gradient( #7e19b0 10%, #fa6c00) ;
+  background-image: radial-gradient( #7e19b0 10%, #fa6c00);
+  vertical-align: middle;
 }
 
 .btn-primary-home {
@@ -31,6 +32,20 @@ body {
   
 }
 
+
+.btn-primary-answer {
+  background-color: #1AC747;
+  border-radius: 200px; 
+  border: 10px solid black;
+  width: 460px;
+  height: 200px;
+  font-family: 'Grandstander', cursive;
+  font-size: 120px;
+  color:  #5F2699;
+  -webkit-text-stroke: 10px black;
+  
+}
+
 .font-home {
   font-family: 'Grandstander', cursive;
   font-size: 210px;
@@ -52,6 +67,11 @@ body {
   -webkit-text-stroke: 10px black;
 }
 
+p{
+  font-family: 'Grandstander', cursive;
+  font-size: 50px;
+  color: #1AC747;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -63,13 +83,15 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   body {
-    text-align: left;
+    text-align: center;
+    vertical-align: middle;
   }  
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   body {
-    text-align: left;
+    text-align: center;
+    vertical-align: middle;
   } 
 }
