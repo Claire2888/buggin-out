@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 
 const Answer = (props) => {
-  const num=Math.round(Math.random()*2)
+  const num=Math.round(Math.random()*3)
   console.log(num)
   const bug = props.match.params.bug
   const {image, facts, name} = bugs.find(({name}) => name === bug)
