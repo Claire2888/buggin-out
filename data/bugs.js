@@ -6,7 +6,7 @@ const bugs = [
    ' adult beetles have two sets of wings!',
     'most beetles only live for a year?',
   ],
-  image: '/image/beetle.jpg'
+  image: '/image/beetle.png'
 },
 {
   id:2,
@@ -24,7 +24,7 @@ const bugs = [
    ' the largest spider in the world has leg span of over 28cm!',
     'spiders don\'t get caught in their own webs because they have self-oiling legs?',
   ],
-  image: '/image/spider.jpg'
+  image: '/image/spider.png'
 },
 {
   id:4,
@@ -33,7 +33,7 @@ const bugs = [
     'a weta can weigh more than a mouse?',
     'a weta has ears on its knees!'
   ],
-  image: '/image/weta.jpg'
+  image: '/image/weta.png'
 }
 ]
 export default bugs
